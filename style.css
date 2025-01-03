@@ -226,27 +226,51 @@ h1, h2, h3 {
 }
 
 
-/* Paragraph Section */
-.paragraph {
+/* Link Section */
+.links-section {
     padding: 50px;
-    background: #fff;
-    color: #333;
+    background: #f9f9f9;
     text-align: center;
+    border-top: 2px solid #ddd;
 }
 
-.paragraph h2 {
+.links-section h2 {
     font-size: 2rem;
+    color: #6f42c1;
+    font-family: "Rubik Dirt", system-ui;
     margin-bottom: 20px;
-    color: #5b9eff; 
 }
 
-.paragraph p {
-    font-size: 1rem;
-    line-height: 1.8;
-    max-width: 800px;
-    margin: 0 auto;
-    color: #666;
+.pdf-links {
+    display: flex;
+    justify-content: center; 
+    gap: 20px; 
 }
+
+.pdf-link {
+    display: inline-flex;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #ff006e;
+    text-decoration: none;
+    border: 1px solid #ff006e;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.pdf-link:hover {
+    background-color: #ff006e;
+    color: #ffffff;
+    transform: scale(1.05);
+}
+
+.pdf-link i {
+    margin-right: 10px;
+    font-size: 1.5rem;
+}
+
 
 
 
