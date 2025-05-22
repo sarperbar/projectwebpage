@@ -284,3 +284,66 @@ h1, h2, h3 {
 html {
     scroll-behavior: smooth;
 }
+
+
+/* Poster Section */
+.poster-section {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.poster-section h2 {
+    color: #222;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.poster-container {
+    max-width: 900px;
+    margin: 0 auto;
+    border: 2px solid #ccc;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background: white;
+}
+
+.poster-container iframe {
+    width: 100%;
+    height: 1250px; 
+    border: none;
+    display: block;
+}
+
+
+/* Video Section */
+.video-section {
+    padding: 60px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.video-section h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #222;
+}
+
+.video-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    aspect-ratio: 16 / 9; /* Modern tarayıcılar için oran */
+    background: #000;
+}
+
+.video-container iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: block;
+}
