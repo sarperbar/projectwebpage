@@ -336,8 +336,7 @@ html {
     margin: 0 auto;
     border-radius: 12px;
     overflow: hidden;
-    box-shadow: 0 0 20px rgba(0,0,0,0.1);
-    aspect-ratio: 16 / 9; /* Modern tarayıcılar için oran */
+    aspect-ratio: 16 / 9;
     background: #000;
 }
 
